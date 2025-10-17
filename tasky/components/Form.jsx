@@ -22,6 +22,13 @@ const AddTaskForm = (props) => {
 
         <input type="submit" value="Submit" />
         </form>
+    <label for="Priority">Priority:</label>
+
+<select name="cars" id="cars">
+  <option value="Low">Low</option>
+  <option value="Medium">Medium</option>
+  <option value="High">High</option>
+</select>
     </div>
   )
 };
